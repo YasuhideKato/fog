@@ -60,6 +60,9 @@ module Fog
       request :create_user
       request :create_volume
       request :create_zone
+      #
+      request :create_vpc
+      #
       request :delete_account
       request :delete_disk_offering
       request :delete_domain
